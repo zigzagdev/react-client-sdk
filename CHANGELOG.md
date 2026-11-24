@@ -2,6 +2,37 @@
 
 All notable changes to the LaunchDarkly Client-side SDK for React will be documented in this file. For the source code for versions 2.13.0 and earlier, see the corresponding tags in the [js-client-sdk](https://github.com/launchdarkly/js-client-sdk) repository; this code was previously in a monorepo package there. See also the [JavaScript SDK changelog](https://github.com/launchdarkly/js-client-sdk/blob/main/CHANGELOG.md), since the React SDK inherits all of the underlying functionality of the JavaScript SDK; this file covers only changes that are specific to the React interface. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [3.10.0](https://github.com/zigzagdev/react-client-sdk/compare/launchdarkly-react-client-sdk-v3.9.4...launchdarkly-react-client-sdk-v3.10.0) (2026-11-24)
+
+
+### Features
+
+* Add experimental debug override functionality. ([63dd495](https://github.com/zigzagdev/react-client-sdk/commit/63dd495f9e393daf24597f9806b7b8ef010a434c))
+* Add experimental debug override functionality. ([4c4f3a3](https://github.com/zigzagdev/react-client-sdk/commit/4c4f3a3b9c62f715f5ec57bac25245a2b5a3a2f2))
+* Add experimental debug override functionality. ([#362](https://github.com/zigzagdev/react-client-sdk/issues/362)) ([63dd495](https://github.com/zigzagdev/react-client-sdk/commit/63dd495f9e393daf24597f9806b7b8ef010a434c))
+* Add hook and plugin support. ([#352](https://github.com/zigzagdev/react-client-sdk/issues/352)) ([6928cc6](https://github.com/zigzagdev/react-client-sdk/commit/6928cc6fd91d4fa47fdc0e18be3dec358453d90c))
+* Add support for client-side prerequisite events. ([3cb6060](https://github.com/zigzagdev/react-client-sdk/commit/3cb606033d418a08144f88e0f632433951216c9c))
+* Add support for per-context summary events. ([#358](https://github.com/zigzagdev/react-client-sdk/issues/358)) ([42c132e](https://github.com/zigzagdev/react-client-sdk/commit/42c132ec509caa996acf7bae179aa179cd3c7e3f))
+* Add support for synchronous inspectors. ([3cb6060](https://github.com/zigzagdev/react-client-sdk/commit/3cb606033d418a08144f88e0f632433951216c9c))
+* Support a pre-initialized client using asyncWithLDProvider. ([#310](https://github.com/zigzagdev/react-client-sdk/issues/310)) ([6f3ad5c](https://github.com/zigzagdev/react-client-sdk/commit/6f3ad5caa600a596c6c1f46621e971ff5bef9cbb))
+* Support for providing custom contexts ([#313](https://github.com/zigzagdev/react-client-sdk/issues/313)) ([a8b52f4](https://github.com/zigzagdev/react-client-sdk/commit/a8b52f48b0fa92ee83ace93ae631d5431ccb54ea))
+* **typescript:** export the LDProps interface for access in application code ([#321](https://github.com/zigzagdev/react-client-sdk/issues/321)) ([7a084c5](https://github.com/zigzagdev/react-client-sdk/commit/7a084c5c4b2fc84ba7c8b23c0a8bed29a3d944da))
+
+
+### Bug Fixes
+
+* adding reference to new SDK location ([b4fb961](https://github.com/zigzagdev/react-client-sdk/commit/b4fb9610b332593abf37a3891771ca85e4e4d456))
+* adding reference to new SDK location ([#389](https://github.com/zigzagdev/react-client-sdk/issues/389)) ([698c2cb](https://github.com/zigzagdev/react-client-sdk/commit/698c2cbed05444b73984becb6a5403e40018e16a))
+* bump js-client-sdk ([b7e36dc](https://github.com/zigzagdev/react-client-sdk/commit/b7e36dc34f77867f6ee93cfb2492bf7b3656704a))
+* bump js-client-sdk ([#395](https://github.com/zigzagdev/react-client-sdk/issues/395)) ([6da483b](https://github.com/zigzagdev/react-client-sdk/commit/6da483b96180ff99ccee89d02ed33dbaf76f66ef))
+* Fix a race condition when handling multiple flag updates. ([#365](https://github.com/zigzagdev/react-client-sdk/issues/365)) ([8d46bbd](https://github.com/zigzagdev/react-client-sdk/commit/8d46bbdda97ec045ea132fd997ad50a3a840338c))
+* update launchdarkly-js-client-sdk to ^3.9.4 ([0feccc7](https://github.com/zigzagdev/react-client-sdk/commit/0feccc7948e6588e7a7853f08ac4d44203adbe50))
+* update launchdarkly-js-client-sdk to ^3.9.4 ([#413](https://github.com/zigzagdev/react-client-sdk/issues/413)) ([da9a6e7](https://github.com/zigzagdev/react-client-sdk/commit/da9a6e74161328859a37b4a1fbc9c4b524b132eb))
+* update launchdarkly-js-client-sdk to 3.9.5 ([299868f](https://github.com/zigzagdev/react-client-sdk/commit/299868fb8873c97d2cec5a4ba90fade9bf14ef70))
+* update launchdarkly-js-client-sdk to 3.9.5 ([#415](https://github.com/zigzagdev/react-client-sdk/issues/415)) ([b39aedf](https://github.com/zigzagdev/react-client-sdk/commit/b39aedffbc43741af2d3a4cc4cad4bc3f5ceecca))
+* update package.json to support react 19 ([#341](https://github.com/zigzagdev/react-client-sdk/issues/341)) ([2c0fc33](https://github.com/zigzagdev/react-client-sdk/commit/2c0fc335eb22262a37a2dcc049771db0b9f862c4))
+* Update to js-client-sdk 3.8.1 for docs update ([#360](https://github.com/zigzagdev/react-client-sdk/issues/360)) ([a4cb4e3](https://github.com/zigzagdev/react-client-sdk/commit/a4cb4e33615dc25bcc50372ad14a435f54cb0b56))
+
 ## [3.9.4](https://github.com/launchdarkly/react-client-sdk/compare/launchdarkly-react-client-sdk-v3.9.3...launchdarkly-react-client-sdk-v3.9.4) (2026-08-10)
 
 
